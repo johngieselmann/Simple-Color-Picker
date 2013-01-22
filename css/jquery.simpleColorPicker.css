@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+/** CSS Document **/
+
+/**
+ * jQuery plugin: simpleColorPicker
+ *  default styles for the picker
+ *
+ * @author johng
+ * @version 1.0 - 10/3/12
+ * @version 1.1 - 11/19/12 - added hex input styles
+ */
+
+#simple-picker.scp-color-picker{
+    border:1px solid #CCC;
+    display:none;
+    left:0;
+    position:absolute;
+    top:0;
+    z-index:1001;
+}
+#simple-picker .scp-samples{
+    border-bottom:1px solid #CCC;
+}
+#simple-picker .scp-sample-row{
+    height:16px;
+    background:#CCC;
+}
+#simple-picker .scp-sample-color,
+#simple-picker .scp-hexrow-sample{
+    border:1px solid #CCC;
+    cursor:pointer;
+    float:left;
+    height:14px;
+    width:16px;
+}
+#simple-picker .scp-sample-color:hover{
+    border:1px solid #FFF;
+}
+#simple-picker .scp-hexrow{
+    float:left;
+    width:100%;
+    padding:2px 0;
+    background:#FFF;
+}
+#simple-picker .scp-hexrow-label{
+    float:left;
+    padding:4px 2px 0 5px;
+    font-size:12px;
+}
+#simple-picker .scp-hexrow-input{
+    display:block;
+    float:left;
+    width:50px;
+    padding:3px;
+    border:1px solid #CCC;
+    font-size:11px;
+}
+#simple-picker .scp-hexrow-sample{
+    margin:2px 0 0 5px;
+    background:#000;
+}
