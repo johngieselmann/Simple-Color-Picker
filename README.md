@@ -1,12 +1,25 @@
 Simple Color Picker jQuery Plugin
 =================================
 
-This plugin creates a simple drop down color picker that the user can modify as needed. The color picker returns the chosen color to the user defined onChoose function. Hold tight, more details on that to come.
+This plugin creates opens simple drop down color picker when the targeted element is clicked on. The color picker returns the chosen color to the user defined onChoose function. Hold tight, more details on that to come.
 
 Requirements
 ------------
 
 - jQuery v1.4.2+
+
+
+How to Use
+----------
+
+Include these files in your project:
+- jquery.simpleColorPicker.min.js
+- jquery.simpleColorPicker.css
+
+Call the simplColorPicker method on a targeted element: 
+
+    $('.example').simpleColorPicker();
+
 
 Options
 -------
@@ -30,6 +43,7 @@ Whether or not to allow a hexadecimal input field for assigning a custom color.
 
 The ID to apply to the color picker.
 
+**Example:**
 
     var options = {
         colors: ['#FFF', '#000'],
@@ -74,7 +88,7 @@ The onShow function receives three parameters: (event, target, picker)
 - **target:** the jQuery object of the element(s) targeted for the help tip
 - **picker:** the jQuery object of the color picker
 
-
+**Example:**
 
     var onChooseCallback = function(color, event, target, picker) {
         //do something with the color
