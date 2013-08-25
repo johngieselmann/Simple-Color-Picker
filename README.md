@@ -43,7 +43,7 @@ Whether or not to allow a hexadecimal input field for assigning a custom color.
 
 The ID to apply to the color picker.
 
-**Example:**
+### Example
 
     var options = {
         colors: ['#FFF', '#000'],
@@ -88,7 +88,7 @@ The onShow function receives three parameters: (event, target, picker)
 - **target:** the jQuery object of the element(s) targeted for the help tip
 - **picker:** the jQuery object of the color picker
 
-**Example:**
+### Example
 
     var onChooseCallback = function(color, event, target, picker) {
         //do something with the color
