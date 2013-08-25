@@ -11,12 +11,13 @@
  *  object of options that user can pass in to configure the display of the color picker
  *      colors: (array) colors to be put in the picker, colors are stored in the title attribute as string
  *      columns: (int||string) the number of columns of colors to create
+ *      hexInput: (boolean) whether or not to show hexadecimal color input
  *      onChoose: (function) callback function executed when a color is chosen
- *          params passed in -> (color,event,[target element],[helper])
+ *          params passed in -> (color,event,[target element],[picker])
  *      onShow: (function) callback function executed when the picker is shown
- *          params passed in -> (event,[target element],[helper])
+ *          params passed in -> (event,[target element],[picker])
  *      onHide: (function) callback function executed when the picker is hidden
- *          params passed in -> (event,[target element],[helper])
+ *          params passed in -> (event,[target element],[picker])
  *      pickerId: (string) the id to apply to the color picker
  */
 
